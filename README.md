@@ -12,10 +12,25 @@ User Must Sign Up
 - Twitter Authentication
 
 # Web Pages
-Homepage - 
+### Homepage 
+*Pre Authentication*
+- 
 
-Profile Page - User’s profile and a list of the URLs they have created
+*Post Authentication* 
 
-Settings - Settings for the use
+### Profile Page 
+*Pre Authentication*
 
-Page For Redirection
+
+*Post Authentication*
+
+User’s profile and a list of the URLs they have created
+
+### Settings - Settings for the use
+*Pre Authentication*
+
+*Post Authentication*
+
+
+### Page For Redirection
+
