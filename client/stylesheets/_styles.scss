@@ -215,7 +215,7 @@ footer p {
 /*~~~~~~~~~~~~~~~
   Profile Styles
 ~~~~~~~~~~~~~~~*/
-
+/*
 .profileSec1 {
   
 }
@@ -237,30 +237,39 @@ footer p {
 }
 
 .profileSecInfo li h4 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .profileSec1Info li:nth-child(2) {
   color: #6c54b3;
   font-size: 0.9rem !important;
-  
+  margin-left: -10px;
+  margin-bottom: 15px;
 }
 
 .profileSec1InfoSocial {
   width: 100%;
+  max-with: 500px;
 }
 
 .profileSec1InfoSocial ul li {
   display: inline-block;
   width: 15%;
+  margin: 10px 0 15px 0;
+}
+
+.profileSec1InfoSocial ul li a i {
+  border: 1px solid #61e0c9;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .profileSec1InfoSocial ul li a i[class="fa fa-twitter"] {
-  
+  margin-right: 2px;
 }
 
 .profileSec1InfoSocial ul li a i[class="fa fa-facebook"] {
-  
+  padding:10px 12px;
 }
 
 .profileSec1InfoSocial ul li a i[class="fa fa-github"] {
@@ -271,14 +280,61 @@ footer p {
   
 }
 
+.profileSec2Ul li ul li {
+  text-align: left !important;
+} */
+
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
   Manager Styles
 ~~~~~~~~~~~~~~~*/
+/*
+.managerSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
 
+.managerSec1Ul li ul {
+  display: inline-block;
+  
+}
 
+.managerSec1UlPrimary {
+  width: 80%;
+  text-align: left !important;
+}
 
+.managerSec1UlPrimary a {
+  color: #5e5e5e !important;
+}
+
+.managerSec1UlPrimary:first-child {
+  width: 70%;
+  margin: 10px 0 5px 0;
+}
+
+.managerSec1UlPrimary:first-child li a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.managerSec1UlPrimary:last-child {
+  width: 70%;
+  margin: 5px 0 10px 0;
+}
+
+.managerSec1UlPrimary:last-child li {
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+}
+
+.managerSec1UlSecndary {
+  width: 10% !important;
+}
+*/
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
