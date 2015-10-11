@@ -14,10 +14,14 @@ header {
 }
 
 header h1 {
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   margin-left: -50px;
   font-weight: normal !important;
+}
+
+header h1 a, header h1 a:hover, header h1 a:link, header h1 a:visited {
+  color: #fff !important;
 }
 
 body input[id="drawer-toggle"] {
@@ -98,6 +102,14 @@ a:active {
   text-align: center;
 }
 
+input[type="text"]:focus {
+  outline: #00bfff !important;
+}
+
+input[type="submit"]:focus {
+  outline: none !important;
+}
+
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
@@ -106,7 +118,7 @@ a:active {
 
 footer {
   text-align: center;
-  margin: 5px 10%;
+  margin: 5px;
   margin-top: 40px;
   padding-top: 10px;
   border-top: 1px solid #61e0c9;
@@ -115,7 +127,7 @@ footer {
 footer ul li {
   display: inline-block;
   padding: 5px;
-  margin: 5px 10px;
+  margin: 5px 8px;
 }
 
 footer ul li a {
@@ -212,24 +224,178 @@ footer p {
 /*~~~~~~~~~~~~~~~
   Profile Styles
 ~~~~~~~~~~~~~~~*/
+/*
+.profileSec1 {
+  
+}
 
+.profileSec1 ul li img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
+.profileSecInfo {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.profileSecInfo li {
+  text-align: left;
+}
+
+.profileSecInfo li h4 {
+  font-size: 1.4rem;
+}
+
+.profileSec1Info li:nth-child(2) {
+  color: #6c54b3;
+  font-size: 0.9rem !important;
+  margin-left: -10px;
+  margin-bottom: 15px;
+}
+
+.profileSec1InfoSocial {
+  width: 100%;
+  max-with: 500px;
+}
+
+.profileSec1InfoSocial ul li {
+  display: inline-block;
+  width: 15%;
+  margin: 10px 0 15px 0;
+}
+
+.profileSec1InfoSocial ul li a i {
+  border: 1px solid #61e0c9;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-twitter"] {
+  margin-right: 2px;
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-facebook"] {
+  padding:10px 12px;
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-github"] {
+  
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-linkedin"] {
+  
+}
+
+.profileSec2Ul li ul li {
+  text-align: left !important;
+} */
 
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
   Manager Styles
 ~~~~~~~~~~~~~~~*/
+/*
+.managerSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
 
+.managerSec1Ul li ul {
+  display: inline-block;
+  
+}
 
+.managerSec1UlPrimary {
+  width: 80%;
+  text-align: left !important;
+}
 
+.managerSec1UlPrimary a {
+  color: #5e5e5e !important;
+}
+
+.managerSec1UlPrimary:first-child {
+  width: 70%;
+  margin: 10px 0 5px 0;
+}
+
+.managerSec1UlPrimary:first-child li a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.managerSec1UlPrimary:last-child {
+  width: 70%;
+  margin: 5px 0 10px 0;
+}
+
+.managerSec1UlPrimary:last-child li {
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+}
+
+.managerSec1UlSecndary {
+  width: 10% !important;
+}
+*/
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
   Settings Styles
 ~~~~~~~~~~~~~~~*/
 
+.settingsSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
 
+.settingsFormUl > li {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.settingsFormUl li ul li {
+  display: inline-block;
+}
+
+.settingsFormUl li ul li h4 i {
+  margin-right: 0;
+}
+
+.settingsFormUl li ul li input {
+  width: 90%;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+}
+
+.settingsFormUl li > input[type="submit"] {
+  width: 80% !important;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+  margin-left: 18px !important;
+  max-width: 200px!important;
+}
+
+.settingsFormUl li > input[type="submit"] {
+  border: 1px solid #61e0c9;
+  background-color: #61e0c9;
+  color: #fff;
+}
+
+.contactSec1 ul li input[type="submit"]:hover {
+  border: 1px solid #57DAC3;
+  background-color: #57DAC3;
+}
 
 /*~~~~ End ~~~~*/
 
@@ -237,6 +403,31 @@ footer p {
   About Styles
 ~~~~~~~~~~~~~~~*/
 
+.aboutSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.aboutSec1 > p {
+   text-align: left;
+   line-height: 1.5;  
+}
+
+.aboutSec1 img {
+  border-radius: 10px;
+}
+
+.aboutP1 {
+  border-bottom: 1px solid #61e0c9;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutP2 {
+  border-top: 1px solid #61e0c9;
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 
 /*~~~~ End ~~~~*/
@@ -280,6 +471,22 @@ footer p {
   Terms & Privacy Styles
 ~~~~~~~~~~~~~~~*/
 
+.termsSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.termsSec1 > p {
+   text-align: left;
+   line-height: 1.5;
+}
+
+/*~~~~ End ~~~~*/
+
+/*~~~~~~~~~~~~~~~
+  404 Error Styles
+~~~~~~~~~~~~~~~*/
+
 .errorSec1 {
   margin-top: 50px;
 }
@@ -307,14 +514,6 @@ footer p {
   padding: 10px 16px;
   border-radius: 4px;
 }
-
-/*~~~~ End ~~~~*/
-
-/*~~~~~~~~~~~~~~~
-  404 Error Styles
-~~~~~~~~~~~~~~~*/
-
-
 
 /*~~~~ End ~~~~*/
 
