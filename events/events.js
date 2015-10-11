@@ -52,7 +52,6 @@ if (Meteor.isClient) {
 				if (options.linkCustom == "") {
 					options.linkCustom = random;
 				}
-
 				// if (Links.find())
 			}
 
@@ -63,11 +62,10 @@ if (Meteor.isClient) {
 				linkTwo.val("");
 			}
 
-
 			createRandomUrl();
 			console.log(options);
 			Meteor.call("generateLink", options);
-			swal( "Good Job!", "Shortened Link for " + "<b>" + options.linkTarget + "</b>" + "into" + "<b>" + options.linkCustom + "</b>");
+			swal({ title: "Success!", text:"Shortened Link for " + options.linkTarget + " into " +  "eneler.meteor.com/link/"+options.linkCustom });
 			clearInput();
 		}
 	});
