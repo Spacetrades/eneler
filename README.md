@@ -13,10 +13,12 @@ User Must Sign Up
 
 # Web Pages
 ### Homepage 
+
 *Pre Authentication*
 - Information About Site
 - URL Counter
 - URL Shortener Field (Submit Button Prompts You To Sign In )
+>>>>>>> upstream/master
 
 *Post Authentication* 
 - Information About Site
