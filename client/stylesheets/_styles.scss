@@ -208,7 +208,60 @@ footer p {
   Profile Styles
 ~~~~~~~~~~~~~~~*/
 
+.profileSec1 {
+  
+}
 
+.profileSec1 ul li img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profileSecInfo {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.profileSecInfo li {
+  text-align: left;
+}
+
+.profileSecInfo li h4 {
+  font-size: 1.2rem;
+}
+
+.profileSec1Info li:nth-child(2) {
+  color: #6c54b3;
+  font-size: 0.9rem !important;
+  
+}
+
+.profileSec1InfoSocial {
+  width: 100%;
+}
+
+.profileSec1InfoSocial ul li {
+  display: inline-block;
+  width: 15%;
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-twitter"] {
+  
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-facebook"] {
+  
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-github"] {
+  
+}
+
+.profileSec1InfoSocial ul li a i[class="fa fa-linkedin"] {
+  
+}
 
 /*~~~~ End ~~~~*/
 
@@ -224,7 +277,18 @@ footer p {
   Settings Styles
 ~~~~~~~~~~~~~~~*/
 
+.settingsSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
 
+.settingsSec1 h3 i {
+  color: 5e5e5e !important;
+}
+
+.settingsFormUl li ul li {
+  display: inline-block;
+}
 
 /*~~~~ End ~~~~*/
 
@@ -232,6 +296,31 @@ footer p {
   About Styles
 ~~~~~~~~~~~~~~~*/
 
+.aboutSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.aboutSec1 > p {
+   text-align: left;
+   line-height: 1.5;  
+}
+
+.aboutSec1 img {
+  border-radius: 10px;
+}
+
+.aboutP1 {
+  border-bottom: 1px solid #61e0c9;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutP2 {
+  border-top: 1px solid #61e0c9;
+  padding-top: 20px;
+  margin-top: 20px;
+}
 
 
 /*~~~~ End ~~~~*/
@@ -275,6 +364,22 @@ footer p {
   Terms & Privacy Styles
 ~~~~~~~~~~~~~~~*/
 
+.termsSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.termsSec1 > p {
+   text-align: left;
+   line-height: 1.5;
+}
+
+/*~~~~ End ~~~~*/
+
+/*~~~~~~~~~~~~~~~
+  404 Error Styles
+~~~~~~~~~~~~~~~*/
+
 .errorSec1 {
   margin-top: 50px;
 }
@@ -302,14 +407,6 @@ footer p {
   padding: 10px 16px;
   border-radius: 4px;
 }
-
-/*~~~~ End ~~~~*/
-
-/*~~~~~~~~~~~~~~~
-  404 Error Styles
-~~~~~~~~~~~~~~~*/
-
-
 
 /*~~~~ End ~~~~*/
 
