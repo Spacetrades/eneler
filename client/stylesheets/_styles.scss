@@ -33,7 +33,7 @@ body input[id="drawer-toggle"] {
 }
 
 #drawer ul li a {
-  padding: 25px 300px 25px 25px !important;
+  padding: 25px 300px 25px 25px;
 }
 
 #drawer ul li:hover {
@@ -45,12 +45,12 @@ body input[id="drawer-toggle"] {
   color: #fff !important;
 }
 
-.login a {
-  padding: 25px 120px 25px !important;
+#Login a {
+  padding: 25px 120px 25px 25px !important;
 }
 
-.navTerms a {
-  padding: 25px 25px 115px 25px !important;
+#navTerms a {
+  padding: 25px 115px 25px 25px !important;
 }
 
 /*~~~~ End ~~~~*/
