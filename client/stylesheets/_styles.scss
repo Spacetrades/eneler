@@ -33,7 +33,7 @@ body input[id="drawer-toggle"] {
 }
 
 #drawer ul li a {
-  padding: 25px 300px 25px 25px !important;
+  padding: 25px 300px 25px 25px;
 }
 
 #drawer ul li:hover {
@@ -43,6 +43,14 @@ body input[id="drawer-toggle"] {
 
 #drawer ul li a:hover {
   color: #fff !important;
+}
+
+#Login a {
+  padding: 25px 120px 25px 25px !important;
+}
+
+#navTerms a {
+  padding: 25px 115px 25px 25px !important;
 }
 
 /*~~~~ End ~~~~*/
@@ -99,6 +107,7 @@ a:active {
 footer {
   text-align: center;
   margin: 5px 10%;
+  margin-top: 40px;
   padding-top: 10px;
   border-top: 1px solid #61e0c9;
 }
@@ -193,7 +202,6 @@ footer p {
   margin-bottom: 10px;
 }
 
-
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
@@ -230,6 +238,75 @@ footer p {
 
 /*~~~~~~~~~~~~~~~
   Contact Styles
+~~~~~~~~~~~~~~~*/
+
+.contactSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.contactSec1 ul li input, .contactSec1 ul li textarea {
+  width: 80%;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+}
+
+.contactSec1 ul li textarea {
+  height: 80px;
+}
+
+.contactSec1 ul li input[type="submit"] {
+  border: 1px solid #61e0c9;
+  background-color: #61e0c9;
+  color: #fff;
+}
+
+.contactSec1 ul li input[type="submit"]:hover {
+  border: 1px solid #57DAC3;
+  background-color: #57DAC3;
+}
+
+
+/*~~~~ End ~~~~*/
+
+/*~~~~~~~~~~~~~~~
+  Terms & Privacy Styles
+~~~~~~~~~~~~~~~*/
+
+.errorSec1 {
+  margin-top: 50px;
+}
+
+.errorSec1 h3 {
+  font-size: 3.5rem;
+  margin: 8px 8px 8px -190px;
+}
+
+.errorSec1 p {
+  font-size: 1.1rem;
+}
+
+.errorSec1 p:nth-child(2) {
+  margin: 10px 0;
+}
+
+.errorSec1 p:nth-child(3) {
+  margin-bottom: 30px;
+}
+
+.errorSec1 a {
+  color: #fff;
+  background-color: #61e0c9;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+/*~~~~ End ~~~~*/
+
+/*~~~~~~~~~~~~~~~
+  404 Error Styles
 ~~~~~~~~~~~~~~~*/
 
 
