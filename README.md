@@ -3,7 +3,6 @@
 Current Competition
 - bitly
 - Tiny Url
-- 
 
 User Must Sign Up 
 - Facebook authentication
@@ -14,13 +13,12 @@ User Must Sign Up
 # Web Pages
 ### Homepage 
 
-*Pre Authentication*
+**Pre Authentication**
 - Information About Site
 - URL Counter
 - URL Shortener Field (Submit Button Prompts You To Sign In )
->>>>>>> upstream/master
 
-*Post Authentication* 
+**Post Authentication** 
 - Information About Site
 - URL Counter
 - URL Shortener Field (Works When You Click Submit)
@@ -29,16 +27,15 @@ User Must Sign Up
 *Pre Authentication*
 
 
-*Post Authentication*
+**Post Authentication**
 
 User’s profile and a list of the URLs they have created
 
 ### Settings - Settings for the use
-*Pre Authentication*
+**Pre Authentication**
 
-*Post Authentication*
+**Post Authentication**
 
 
 ### Page For Redirection
->>>>>>> upstream/master
 
