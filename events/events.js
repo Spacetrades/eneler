@@ -67,7 +67,7 @@ if (Meteor.isClient) {
 			createRandomUrl();
 			console.log(options);
 			Meteor.call("generateLink", options);
-			swal( "Good Job!", "Shortened Link for " + "<b>" + options.linkTarget + "</b>" + into + "<b>" + options.linkCustom + "</b>");
+			swal( "Good Job!", "Shortened Link for " + "<b>" + options.linkTarget + "</b>" + "into" + "<b>" + options.linkCustom + "</b>");
 			clearInput();
 		}
 	});

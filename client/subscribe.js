@@ -1,4 +1,4 @@
 if (Meteor.isClient) {
 	Meteor.subscribe("userInformationLookup");
-	Meteor.subscribe("linksReloadLookup");
+	// Meteor.subscribe("linksReloadLookup");
 }
