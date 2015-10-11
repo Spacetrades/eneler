@@ -1,0 +1,9 @@
+<template name="layoutDefault">
+	{{#if currentUser}}
+	{{> headerHomePre}}
+	{{> yield}}
+	{{else}}
+	{{> headerHomePost}}
+	{{> yield}}
+	{{/if}}
+</template>
