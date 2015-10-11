@@ -11,4 +11,11 @@ if (Meteor.isClient) {
 		});
 	}
 
+	Template.layoutDefault.events({
+		"click [data-action='task/login']": function () {
+			fbLogin();
+			console.log('Yes');
+		}
+	});
+
 }
