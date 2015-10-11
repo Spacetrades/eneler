@@ -7,27 +7,6 @@
   Header
 ~~~~~~~~~~~~~~~*/
 
-@-webkit-keyframes color_change {
-  from { background-color: blue; }
-  to { background-color: red; }
-}
-@-moz-keyframes color_change {
-  from { background-color: blue; }
-  to { background-color: red; }
-}
-@-ms-keyframes color_change {
-  from { background-color: blue; }
-  to { background-color: red; }
-}
-@-o-keyframes color_change {
-  from { background-color: blue; }
-  to { background-color: red; }
-}
-@keyframes color_change {
-  from { background-color: blue; }
-  to { background-color: red; }
-}
-
 
 header {
   background-color: #61e0c9;
@@ -40,12 +19,6 @@ header h1 {
   text-align: center;
   margin-left: -50px;
   font-weight: normal !important;
-
-  -webkit-animation: color_change 15s infinite alternate;
-  -moz-animation: color_change 15s infinite alternate;
-  -ms-animation: color_change 15s infinite alternate;
-  -o-animation: color_change 15s infinite alternate;
-  animation: color_change 15s infinite alternate;
 }
 
 header h1 a, header h1 a:hover, header h1 a:link, header h1 a:visited {
@@ -576,4 +549,4 @@ footer p {
 
 
 
-/*~~~~ End ~~~~*/
+/*~~~~ End ~~~~
