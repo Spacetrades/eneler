@@ -14,10 +14,14 @@ header {
 }
 
 header h1 {
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   margin-left: -50px;
   font-weight: normal !important;
+}
+
+header h1 a, header h1 a:hover, header h1 a:link, header h1 a:visited {
+  color: #fff !important;
 }
 
 body input[id="drawer-toggle"] {
