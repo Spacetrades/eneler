@@ -13,7 +13,7 @@ User Must Sign Up
 
 # Web Pages
 ### Homepage 
-*Pre Authentication*
+*Pre Authentication**
 - 
 
 *Post Authentication* 
