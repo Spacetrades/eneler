@@ -17,7 +17,6 @@
  |_____|_| |_|\___|_|\___|_|    (_) /_/ 
                                                                                      
  * * * * Make paths shorter * * * *  
-
 -->
 
 </head>
@@ -26,10 +25,10 @@
 
 <template name="layoutDefault">
 	{{#if currentUser}}
-	{{> headerHomePre}}
+	{{> headerHomePost}}
 	{{> yield}}
 	{{else}}
-	{{> headerHomePost}}
+	{{> headerHomePre}}
 	{{> yield}}
 	{{/if}}
 </template>
