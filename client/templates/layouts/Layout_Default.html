@@ -26,9 +26,11 @@
 <template name="layoutDefault">
 	{{#if currentUser}}
 	{{> headerHomePost}}
+	{{> footer}}
 	{{> yield}}
 	{{else}}
 	{{> headerHomePre}}
+	{{> footer}}
 	{{> yield}}
 	{{/if}}
 </template>
