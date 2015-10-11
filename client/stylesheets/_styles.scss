@@ -98,6 +98,14 @@ a:active {
   text-align: center;
 }
 
+input[type="text"]:focus {
+  outline: #00bfff !important;
+}
+
+input[type="submit"]:focus {
+  outline: none !important;
+}
+
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
@@ -115,7 +123,7 @@ footer {
 footer ul li {
   display: inline-block;
   padding: 5px;
-  margin: 5px 10px;
+  margin: 5px 8px;
 }
 
 footer ul li a {
@@ -282,15 +290,47 @@ footer p {
   font-size: 1.4rem;
 }
 
-.settingsSec1 h3 i {
-  color: 5e5e5e !important;
+.settingsFormUl > li {
+  padding: 10px;
+  margin: 0 10px;
 }
 
 .settingsFormUl li ul li {
   display: inline-block;
 }
 
-.settingsFormUl li ul li input
+.settingsFormUl li ul li h4 i {
+  margin-right: 0;
+}
+
+.settingsFormUl li ul li input {
+  width: 90%;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+}
+
+.settingsFormUl li > input[type="submit"] {
+  width: 80% !important;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+  margin-left: 18px !important;
+  max-width: 200px!important;
+}
+
+.settingsFormUl li > input[type="submit"] {
+  border: 1px solid #61e0c9;
+  background-color: #61e0c9;
+  color: #fff;
+}
+
+.contactSec1 ul li input[type="submit"]:hover {
+  border: 1px solid #57DAC3;
+  background-color: #57DAC3;
+}
 
 /*~~~~ End ~~~~*/
 
