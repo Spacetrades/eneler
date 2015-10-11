@@ -24,6 +24,20 @@ if (Meteor.isClient) {
 
 			// LATER
 
+			if (!Meteor.userId) {
+				swal({
+					title: "Are you sure?",
+					text: "You will not be able to recover this imaginary file!",
+					type: "warning",
+					showCancelButton: true,
+					confirmButtonColor: "blue",
+					confirmButtonText: "Yes, delete it!",
+					closeOnConfirm: false
+				}, function() {
+					swal("Deleted!", "Your imaginary file has been deleted.", "success");
+				});
+			}
+
 
 			var options = {
 				creatorId: Meteor.userId(),
