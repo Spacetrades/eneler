@@ -12,9 +12,42 @@ if (Meteor.isClient) {
 	}
 
 	Template.layoutDefault.events({
-		"click [data-action='task/login']": function () {
+		"click [data-action='task/login']": function() {
 			fbLogin();
-			console.log('Yes');
+		},
+		"click [data-action='task/generate']": function() {
+
+			// LATER
+			// function generateLinkValidate() {
+
+			// }
+
+			// LATER
+
+
+			var options = {
+				creatorId: Meteor.userId(),
+				linkCustom: $('.homeCustomUrl').val(),
+				linkTarget: $('.homeLongUrl').val(),
+				clicks: 0
+			}
+
+			function createRandomUrl() {
+				var random = Random.id(5);
+
+				if (options.linkCustom == "") {
+					options.linkCustom = random;
+				}
+
+				// if (Links.find())
+			}
+
+
+
+			console.log(options.linkCustom);
+			createRandomUrl();
+
+			Meteor.call("generateLink", options);
 		}
 	});
 

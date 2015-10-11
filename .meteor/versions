@@ -48,6 +48,7 @@ iron:middleware-stack@1.0.11
 iron:router@1.0.12
 iron:url@1.0.11
 jquery@1.11.4
+kevohagan:sweetalert@1.0.0
 launch-screen@1.0.4
 less@2.5.0_3
 livedata@1.0.15
@@ -60,8 +61,12 @@ minifiers@1.1.7
 minimongo@1.0.10
 mobile-experience@1.0.1
 mobile-status-bar@1.0.6
+momentjs:moment@2.10.6
 mongo@1.1.2
 mongo-id@1.0.1
+natestrauser:animate-css@3.4.0
+nemo64:bootstrap@3.3.5_2
+nemo64:bootstrap-data@3.3.5
 npm-mongo@1.4.39_1
 oauth@1.1.6
 oauth2@1.1.5
