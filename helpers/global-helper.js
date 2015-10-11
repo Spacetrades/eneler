@@ -16,7 +16,6 @@ if (Meteor.isClient) {
 		return Meteor.userId();
 	});
 
-
 	Template.registerHelper('profile', function() {
 		return Meteor.userId();
 	});
@@ -33,11 +32,14 @@ if (Meteor.isClient) {
 		}).fetch()[0].profile.name;
 	});
 
-
 	Template.registerHelper('imageProfile', function() {
 		return Meteor.users.find({
 			_id: id
 		}).fetch()[0].profile.picturelrg;
 	});
 
+	Template.registerHelper('redirectLink', function() {
+
+		return Links.find({ linkCustom: id}).fetch()[0].linkTarget;
+	});
 }

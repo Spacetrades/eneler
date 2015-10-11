@@ -52,14 +52,21 @@ if (Meteor.isClient) {
 				if (options.linkCustom == "") {
 					options.linkCustom = random;
 				}
-
 				// if (Links.find())
 			}
 
+			function clearInput() {
+				var linkOne = $('.homeCustomUrl');
+				var linkTwo = $('.homeLongUrl');
+				linkOne.val("");
+				linkTwo.val("");
+			}
 
 			createRandomUrl();
 			console.log(options);
 			Meteor.call("generateLink", options);
+			swal({ title: "Success!", text:"Shortened Link for " + options.linkTarget + " into " +  "eneler.meteor.com/link/"+options.linkCustom });
+			clearInput();
 		}
 	});
 

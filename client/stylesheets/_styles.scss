@@ -7,6 +7,7 @@
   Header
 ~~~~~~~~~~~~~~~*/
 
+
 header {
   background-color: #61e0c9;
   color: #fff !important;
@@ -141,6 +142,11 @@ footer p {
 }
 
 /*~~~~ End ~~~~*/
+
+
+.generateLink:hover {
+  cursor: pointer;
+}
 
 /*~~~~~~~~~~~~~~~
   Home Styles
@@ -541,4 +547,4 @@ footer p {
 
 
 
-/*~~~~ End ~~~~*/
+/*~~~~ End ~~~~

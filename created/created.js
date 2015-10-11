@@ -7,4 +7,12 @@ var ascii = "      _____            _                __\n" +
 			" * * * * Make paths shorter * * * * ";
 
 console.log(ascii);
+
+
+// Template.redirect.onCreated( function () {
+
+// var linkTarget = $(".search").text();
+// console.log(linkTarget);
+// window.location =  "http://" + linkTarget;
+
 }
