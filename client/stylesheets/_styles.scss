@@ -7,7 +7,6 @@
   Header
 ~~~~~~~~~~~~~~~*/
 
-
 header {
   background-color: #61e0c9;
   color: #fff !important;
@@ -16,8 +15,8 @@ header {
 
 header h1 {
   color: #fff !important;
-  text-align: left;
-  margin-left: 20px;
+  text-align: center;
+  margin-left: -50px;
   font-weight: normal !important;
 }
 
@@ -103,8 +102,9 @@ a:active {
   text-align: center;
 }
 
-input[type="text"]:focus {
-  outline: #00bfff !important;
+input[type=”text”]:focus {
+	outline: none !important;
+  border: 1px solid #61e0c9 !important;
 }
 
 input[type="submit"]:focus {
@@ -142,11 +142,6 @@ footer p {
 }
 
 /*~~~~ End ~~~~*/
-
-
-.generateLink:hover {
-  cursor: pointer;
-}
 
 /*~~~~~~~~~~~~~~~
   Home Styles
@@ -201,6 +196,8 @@ footer p {
 
 .homeSec3 {
   margin-top: 50px;
+  font-size: 1.1rem;
+  margin-top: 5px !important;
 }
 
 .homeSec3 ul, .homeSec3 p {
@@ -218,6 +215,24 @@ footer p {
 .homeSec3 ul li:nth-child(2) {
   width: 100%;
   margin-bottom: 10px;
+}
+
+.helpCenterThree {
+    border-top: 1px solid #404040;
+    text-align: left !important;
+}
+
+.helpThree > li {
+    width: 28%;
+    display: inline-block;
+}
+
+.helpThree li ul li h3 {
+    margin: 5px 0 4px 0;
+}
+
+.helpThree li ul li p {
+    margin: 0 0 2px 0;
 }
 
 /*~~~~ End ~~~~*/
@@ -445,6 +460,9 @@ footer p {
   margin-top: 20px;
 }
 
+.aboutImg {
+	width: 75% !important;
+}
 
 /*~~~~ End ~~~~*/
 
@@ -547,4 +565,4 @@ footer p {
 
 
 
-/*~~~~ End ~~~~
+/*~~~~ End ~~~~*/
