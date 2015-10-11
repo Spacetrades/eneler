@@ -45,6 +45,14 @@ body input[id="drawer-toggle"] {
   color: #fff !important;
 }
 
+.login a {
+  padding: 25px 120px 25px !important;
+}
+
+.navTerms a {
+  padding: 25px 25px 115px 25px !important;
+}
+
 /*~~~~ End ~~~~*/
 
 /*~~~~~~~~~~~~~~~
@@ -99,6 +107,7 @@ a:active {
 footer {
   text-align: center;
   margin: 5px 10%;
+  margin-top: 40px;
   padding-top: 10px;
   border-top: 1px solid #61e0c9;
 }
@@ -231,6 +240,33 @@ footer p {
   Contact Styles
 ~~~~~~~~~~~~~~~*/
 
+.contactSec1 h3 {
+  margin: 25px 0 15px 0;
+  font-size: 1.4rem;
+}
+
+.contactSec1 ul li input, .contactSec1 ul li textarea {
+  width: 80%;
+  margin-bottom: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+}
+
+.contactSec1 ul li textarea {
+  height: 80px;
+}
+
+.contactSec1 ul li input[type="submit"] {
+  border: 1px solid #61e0c9;
+  background-color: #61e0c9;
+  color: #fff;
+}
+
+.contactSec1 ul li input[type="submit"]:hover {
+  border: 1px solid #57DAC3;
+  background-color: #57DAC3;
+}
 
 
 /*~~~~ End ~~~~*/
